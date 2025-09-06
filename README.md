@@ -42,9 +42,9 @@ con lo que hizo el profesor.
 
 🗺️ Roadmap real del curso react119-fullstack-supabase
 🔹 Fundamentos de React
-- [ ] Crear proyecto con React y entender estructura de carpetas
-- [ ] Renderizar componentes y usar export default vs export const
-- [ ] Manejar estado con useState
+- [✅] Crear proyecto con React y entender estructura de carpetas
+- [✅] Renderizar componentes y usar export default vs export const
+- [✅] Manejar estado con useState
 - [ ] Usar operadores ternarios para lógica condicional
 - [ ] Aplicar estilos CSS en React
       
