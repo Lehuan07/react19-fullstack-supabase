@@ -1,16 +1,12 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import "./App.css"
+import {HolaMundo} from "./assets/componentes/HolaMundo";
+import { Contador } from "./assets/componentes/contador";
 
-function App() {
-  const [count, setCount] = useState(0)
-
-  return (
-    <div>
-      <h1>Hola Mundo, desde React!</h1>
-    </div>
-  )
+function App(){
+  return (<div>
+    <HolaMundo/>
+    <Contador/>
+  </div>)
 }
 
-export default App
+export default App;
