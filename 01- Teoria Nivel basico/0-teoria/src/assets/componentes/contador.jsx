@@ -1,10 +1,11 @@
 import { useState } from "react"
 import { Modal } from "./modal"
+import styles from "./contador.module.css"
 
 export const Contador = () =>{
     const [state,setState] = useState(false)
-    return (<div>
-        <h1>
+    return (<div className= {styles.card}>
+        <h1 className="contador">
             Contador
         </h1>
         <button onClick={() =>

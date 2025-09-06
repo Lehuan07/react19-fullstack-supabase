@@ -1,7 +1,8 @@
+import styles from "./HolaMundo.module.css"
 export const HolaMundo = () =>{
     return (
-        <div>
-            <h1>Hola mundo desde React 19</h1>
-        </div>
+        <main className={styles.card}>
+            <h1 className="title">Hola mundo desde React 19</h1>
+        </main>
     );
 }

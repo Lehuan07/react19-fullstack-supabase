@@ -1,4 +1,4 @@
-import "./App.css"
+
 import {HolaMundo} from "./assets/componentes/HolaMundo";
 import { Contador } from "./assets/componentes/contador";
 
