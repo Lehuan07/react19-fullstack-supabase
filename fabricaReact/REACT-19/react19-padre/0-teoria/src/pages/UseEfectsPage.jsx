@@ -1,7 +1,25 @@
-export const UseEfectsPage = () =>{
-    return(
-        <div className="h-screen bg-amber-300 text-black">
-            <span>UseEfectsPage</span>
+import { useEffect, useState } from "react";
+import { BtnVolver } from "../components/ui/buttons/BtnVolver";
+
+export const UseEfectsPage = () => {
+    const [segundos, setSegundos] = useState(0);
+
+    useEffect(() => {
+        const intervalo = setInterval(() => {
+        setSegundos((s) => s + 1);
+        }, 1000);
+
+        return () => clearInterval(intervalo); // 🧼 limpieza
+    }, []);
+
+    return (
+        <div className="h-screen bg-amber-300 text-black flex flex-col items-center justify-center gap-4">
+        <BtnVolver />
+        <h2 className="text-2xl font-bold mb-6">UseEfectsPage</h2>
+        <div className="w-48 h-48 rounded-full bg-white border-8 flex items-center justify-center shadow-lg">
+            <span className="text-4xl font-semibold">{segundos}</span>
         </div>
-    )
-}
+        
+        </div>
+    );
+};

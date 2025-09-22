@@ -9,6 +9,7 @@ export const CardList = () =>{
         },
         {
         title: "imagenes",
+        to:"/imagenes"
         },
     ]
     return(
