@@ -33,8 +33,8 @@ con lo que hizo el profesor.
 | Sección | Estado | Comentario |
 |--------|--------|------------|
 | Introducción | ✅ | Breve pero necesaria |
-| Teoría Básica | 🔄 | En curso, repasando hooks |
-| Teoría Intermedia | ⏳ | Próximo objetivo |
+| Teoría Básica | ✅ | Completado, repaso de hooks |
+| Teoría Intermedia | 🔄 | En curso... |
 | Teoría Avanzada | ⏳ | Se viene lo picante |
 | Proyecto Red Social | ⏳ | El campo de batalla |
 
