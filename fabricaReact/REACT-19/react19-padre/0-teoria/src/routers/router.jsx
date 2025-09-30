@@ -16,9 +16,10 @@ export const MyRouters = () => (
         <Route path="/UseEfectsPage" element={<UseEfectsPage/>}></Route>
         <Route path="/imagenes" element={<ImagenesPage/>}/>
         <Route path="*" element={<Page404/>}></Route>
-        <Route path="/rutasanidadas" element={<RutasAnidadasPage/>} />
-        <Route path="perfil" element={<PerfilPage/>} />
-        <Route path="Configuracion" element={<ConfiguracionPage/>}>
+         {/* ✅ rutas anidadas */}
+        <Route path="/rutasanidadas" element={<RutasAnidadasPage />}>
+        <Route path="perfil" element={<PerfilPage />} />
+        <Route path="configuracion" element={<ConfiguracionPage />} />
         </Route>
         </Routes>
     </BrowserRouter>

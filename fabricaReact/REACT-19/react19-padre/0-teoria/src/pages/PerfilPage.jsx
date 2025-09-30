@@ -1,5 +1,5 @@
 export const PerfilPage = () =>{
     return(
-        <div className="text-white bg-black h-screen">Login</div>
+        <div className="text-white bg-black h-screen">PerfilPage</div>
     )
 }
